@@ -6,6 +6,7 @@ class NoteService {
 
     class NoteOrCommentException(message: String) : RuntimeException(message)
 
+    
     fun add(
         title: String,
         text: String,
