@@ -13,7 +13,7 @@ class NoteServiceTest {
             needWiki = false, canComment = false, 2, 3, 1, 0
         )
         val result = service.add(
-            "Try Second ", "text", 0, 0, "-", "-",
+            "Try Second ", "text ", 0, 0, "-", "-",
             needWiki = false, canComment = false, 2, 3, 1, 0
         )
         val expected = 2
